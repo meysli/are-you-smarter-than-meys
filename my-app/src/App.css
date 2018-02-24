@@ -1,0 +1,90 @@
+.start-page {
+  background-color: hsla(172, 90%, 35%, 0.78);
+  width: 100vw;
+  height: 100vh; 
+  position: relative; 
+}
+
+.pop-up {
+  background-color: hsla(0, 0%, 100%, 1);
+  min-width: 70%;
+  min-height: 80%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 35px;
+  border: 1px solid hsla(10, 0%, 0%, 0.28);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img {
+  border-radius: 3px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.game-name {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+.start-button {
+  width: 150px;
+  height: 43px;
+  background-color: #7ad062;
+  border: 1px solid hsla(10, 0%, 0%, 0.28);
+  border-radius: 12px;
+  margin-top: 17px;
+  color: white;
+  font-size: 22px;
+  font-family: monospace;
+}
+
+.instructions {
+  font-family: monospace;
+  margin-top: 10px;
+  max-width: 60%;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text {
+  text-align: justify;
+}
+
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
